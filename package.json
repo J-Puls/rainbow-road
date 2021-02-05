@@ -1,0 +1,28 @@
+{
+  "name": "rainbow-road",
+  "version": "1.0.1",
+  "description": "Simplified API for colored JavaScript console text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Puls/rainbow-road.git"
+  },
+  "keywords": [
+    "javascript",
+    "console",
+    "log",
+    "colored"
+  ],
+  "author": "Jeff Puls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/J-Puls/rainbow-road/issues"
+  },
+  "homepage": "https://github.com/J-Puls/rainbow-road#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
