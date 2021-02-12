@@ -1,11 +1,11 @@
 const colors = require("colors");
 
-const unimp = (string) => console.log(`${string}`.dim);
-const err = (string) => console.error(`${string}`.red);
-const info = (string) => console.info(`${string}`.cyan);
-const succ = (string) => console.log(`${string}`.green);
-const warn = (string) => console.log(`${string}`.yellow);
-const gen = (string) => console.log(`${string}`);
+const err = (string) => console.error(`[ error ] ${string}`.red);
+const gen = (string) => console.log(`[ general ] ${string}`);
+const info = (string) => console.info(`[ info ] ${string}`.cyan);
+const succ = (string) => console.log(`[ success ] ${string}`.green);
+const unimp = (string) => console.log(`[ unimportant ] ${string}`.dim);
+const warn = (string) => console.log(`[ warning ] ${string}`.yellow);
 
 const rr = { unimp, err, info, gen, succ, warn };
 
